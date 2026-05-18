@@ -1,14 +1,14 @@
 class Student01{
     String name ="jaya";
     int rollNumber=90;
-    long[] phoneNum={9381144674,555435345};
+    long[] phoneNum={938114674,555435345};
     String sclass="1OTH ";
 
 }
 class Student02{
     String name ="jaya";
     int rollNumber=90;
-    long[] phoneNum={9381144674,555435345};
+    long[] phoneNum={938114464,555435345};
     String sclass="1OTH ";
 
 }
