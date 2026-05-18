@@ -1,36 +1,23 @@
-class employee{
-    int empId;
-    string emp_name;
-    long emp_num;
-    double emp_sal;
-}
+import java.util.Scanner;
 
-class company{
+public class college {
     public static void main(String[] args){
-        employee e1 = new employee():
-        employee e2 = new employee();
+        Scanner scn = new Scanner(System.in);
+        usingScan s1 = new usingScan();
 
-        e1.empId = 1;
-        e1.emp_name ="jay";
-        e1.emp_num ="934223422"
-        e1.empsal =5000.33;
-
-        e2.empId = 2;
-        e2.emp_name ="surya";
-        e2.emp_num ="733722131"
-        e2.empsal =649004;
-
-        System.out.println(e1.empId);
-        System.out.println(e1.emp_name);
-        System.out.println(e1.emp_num);
-        System.out.println(e1.emp_sal);
-
-        System.out.println();
-
-        System.out.println(e2.empId);
-        System.out.println(e2.emp_name);
-        System.out.println(e2.emp_num);
-        System.out.println(e2.emp_sal);
-
+        System.out.println("Enter your name:");
+        s1.sname = scn.nextLine();
+        System.out.println("Enter your course fee");
+        s1.sfee = scn.nextInt();
+        System.out.println("Enter your course fee");
+        System.out.println("enter your course");
+        s1.scourse = scn.nextLine(); scn.nextLine();
+        System.out.println("enter your phone number");
+        s1.phone_number = scn.nextInt();
+        
+        System.out.println(s1.sname);
+        System.out.println(s1.sfee);
+        System.out.println(s1.scourse);
+        System.out.println(s1.phone_number);
     }
 }
