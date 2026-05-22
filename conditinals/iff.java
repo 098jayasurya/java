@@ -8,7 +8,7 @@ public class iff {
     //         System.out.println("Hello");
     //     }
     //     System.out.println("HRU\n");
-    
+
     // }
 
     static void m1(int a){
@@ -29,6 +29,7 @@ public class iff {
         m1(20);
 
     }
+
 
     // static void m1(int a) {
 	// 	System.out.println("Hi");
