@@ -30,6 +30,46 @@ public class swi {
                 break;      
             default: System.out.println("invalid day number,enter only in bw[1-7]");    
         }
+        
+	// 	dayName(Integer.parseInt(args[0]));
+	// }
+
+	// static void dayName(int day) {
+	// 	switch(day){
+
+	// 		case 1:
+	// 			System.out.println("Today is MON");
+	// 			break;
+				
+	// 		case 2:
+	// 			System.out.println("Today is TUE");
+	// 			break;
+
+	// 		case 3: 
+	// 			System.out.println("Today is WED");
+	// 			break;	
+
+	// 		case 4:
+	// 			System.out.println("Today is THU");
+	// 			break;
+
+	// 		case 5:
+	// 			System.out.println("Today is FRI");
+	// 			break;
+				
+	// 		case 6:
+	// 			System.out.println("Today is SAT");
+	// 			break;
+
+	// 		case 7: 
+	// 			System.out.println("Today is SUN");
+	// 			break;
+
+	// 		default: 
+	// 			System.out.println("Invalid number");
+	// 			System.out.println("Enter between (1-7) only");
+	
+	// 	}//switch clo
     }
 }
 
