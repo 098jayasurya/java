@@ -51,5 +51,23 @@ public class Student extends Person{
     public void listen(){
         System.out.println(getName() +"is studying");
     }
-    
+
+    public void reply(){
+        System.out.println(getName()+"is replying");
+    }
+
+    public void write(){
+        System.out.println(getName() +"is writing"+ course+"notes");
+    }
+    	
+	@Override
+	public String toString() {
+				
+		return	super.toString() + "\n" +
+				" institute\t: "	+ institute + "\n" +
+				" sno\t\t: "		+ sno		+ "\n" +
+				" course\t\t: "		+ course	+ "\n" +
+				" fee\t\t: "		+ fee;
+	}	
+
 }
