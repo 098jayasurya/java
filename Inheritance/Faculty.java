@@ -13,7 +13,7 @@ public class Faculty extends Person {
 
     static {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter institue");
+        System.out.println("Enter FACULTY institue");
         institute = scn.nextLine();
 
     }
