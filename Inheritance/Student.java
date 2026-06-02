@@ -11,7 +11,7 @@ public class Student extends Person{
     
     static  {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter institue name");
+        System.out.println("Enter STUDENT institue name");
         institue=scn.nextLine();
         
     }
@@ -64,7 +64,7 @@ public class Student extends Person{
 	public String toString() {
 				
 		return	super.toString() + "\n" +
-				" institute\t: "	+ institute + "\n" +
+				" institute\t: "	+ institue + "\n" +
 				" sno\t\t: "		+ sno		+ "\n" +
 				" course\t\t: "		+ course	+ "\n" +
 				" fee\t\t: "		+ fee;
