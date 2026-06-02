@@ -17,36 +17,38 @@ public class BankAccount{
     private String accHName;
     private double balance;
 
-    // static  {
-    //     System.out.println("Bank account is loaded");
-    //     System.out.println("bankaccount is started");
+    static  {
+        System.out.println("Bank account is loaded");
+        System.out.println("bankaccount is started");
 
-    //     Scanner scn = new Scanner(System.in);
-    //     System.out.println("enter bank name:");
-    //     bankName = scn.nextLine();
-    //     System.out.println("enter branchname");
-    //     branchName=scn.nextLine();
-    //     System.out.println("enter ifsc code");
-    //     ifsc = scn.nextLine();
+        Scanner scn = new Scanner(System.in);
+        System.out.println("enter bank name:");
+        bankName = scn.nextLine();
+        System.out.println("enter branchname");
+        branchName=scn.nextLine();
+        System.out.println("enter ifsc code");
+        ifsc = scn.nextLine();
 
-    //     System.out.println("sb is ended");
-    //     System.out.println("static fields are intialised");
+        System.out.println("sb is ended");
+        System.out.println("static fields are intialised");
 
 
         
-    // }
-    try{
-        BufferedReader br = new BufferedReader(new FileReader("bankdetails.txt"));
-
-        bankName=br.readLine();
-        branchName=br.readLine();
-        ifsc=br.readLine();
-    }catch(FileNotFoundException e){
-        System.out.println(e.getMessage());
-    }catch(IOException e){
-        e.printStackTrace();
     }
-    
+    // try{
+    //     BufferedReader br = new BufferedReader(new FileReader("bankdetails.txt"));
+
+    //     bankName=br.readLine();
+    //     branchName=br.readLine();
+    //     ifsc=br.readLine();
+    // }catch(FileNotFoundException e){
+    //     System.out.println(e.getMessage());
+    // }catch(IOException e){
+    //     e.printStackTrace();
+    // }
+    public BankAccount(){
+
+    }
     public BankAccount(long accNum,String accHName,double balance){
         this.accNum = accNum;
         this.accHName = accHName;
