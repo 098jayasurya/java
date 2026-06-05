@@ -13,6 +13,6 @@ class Rectangle extends Shape {  //Inheritance
      @Override	
      void findArea(){   //Polymorphsim (overriding)
 			//overrding with Reactangle implementation	
-         System.out.println("Rectangle Area: " +(l * b)));
+         System.out.println("Rectangle Area: " +(l * b));
      }
 }

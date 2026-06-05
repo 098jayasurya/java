@@ -17,7 +17,7 @@ class Painter { //User class
  
 	Painter hk = new Painter();
 	hk.draw(new Rectangle(10, 5) );
-	hk.draw(new Square(10);
+	hk.draw(new Square(10));
 	hk.draw(new Circle(10));
 
    }
