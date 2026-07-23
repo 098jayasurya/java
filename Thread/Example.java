@@ -23,4 +23,12 @@ public class Example {
 		System.out.println("\nm3 is execution start");
 		System.out.println("m3 is execution end");
 	}
+
+    public static void main(String[] args) {
+        Thread th1 = new Thread();
+
+        th1.start();
+
+        System.out.println("main end");
+    }
 }
